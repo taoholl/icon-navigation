@@ -14,7 +14,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .masthead {
@@ -23,8 +23,7 @@ html {
 }
 
 h1 {
-  color:white;
-  text-align: center;
+  color: #fff;
 }
 
 li {
@@ -45,4 +44,19 @@ nav a {
 nav a:hover {
   background-color: white;
   color: #423ca3;
+}
+
+.logo {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 }
